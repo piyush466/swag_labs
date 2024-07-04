@@ -20,6 +20,7 @@ class Test_products:
         self.products.get_all_products_name_and_price_low_to_high()
         self.products.handle_drop_down(test_data.select_high_to_low)
         self.products.get_all_products_name_and_price_high_to_low()
+        print("done")
 
 
 
