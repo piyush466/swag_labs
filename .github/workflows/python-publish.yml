@@ -30,9 +30,9 @@ jobs:
         python-version: '3.11'
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
-        python -m pip install --upgrade pip
-        pip install build
+        pip install -r requirement.txt
+        pip install --upgrade pip
+        
 
     - name: Run PyTest
       run: pytest --html=./pytest-report/report.html --self-contained-html
